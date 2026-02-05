@@ -52,7 +52,7 @@ function Inicio() {
       <Navbar />
 
       <div className="container layout">
-        {/* CONTENIDO IZQUIERDO */}
+
         <div>
           <h1>Inicio</h1>
 
@@ -66,8 +66,7 @@ function Inicio() {
             />
           ))}
         </div>
-
-        {/* CONTENIDO DERECHO - PERSONA */}
+}
         <Persona {...persona} />
       </div>
     </>
