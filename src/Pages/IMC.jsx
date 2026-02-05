@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import Persona from "../Components/Persona";
-import foto from "../Assets/foto.jpeg"; // ajusta la ruta si cambia
+import foto from "../Assets/foto.jpeg";
 
 function IMC() {
   const [nombre, setNombre] = useState("");
@@ -27,7 +27,7 @@ function IMC() {
       <Navbar />
 
       <div className="layout">
-        {/* COLUMNA IZQUIERDA */}
+
         <div className="content">
           <h1>Calculadora IMC</h1>
 
@@ -60,7 +60,6 @@ function IMC() {
           )}
         </div>
 
-        {/* COLUMNA DERECHA */}
         <div className="sidebar">
           <Persona
             nombre="Julián López Velásquez"
