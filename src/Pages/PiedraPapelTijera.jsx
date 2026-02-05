@@ -38,7 +38,7 @@ function PiedraPapelTijera() {
       <Navbar />
 
       <div className="layout">
-        {/* COLUMNA IZQUIERDA */}
+        
         <div className="content">
           <h1>Piedra, Papel o Tijera</h1>
 
@@ -63,7 +63,6 @@ function PiedraPapelTijera() {
           )}
         </div>
 
-        {/* COLUMNA DERECHA */}
         <div className="sidebar">
           <Persona
             nombre="Julián López Velásquez"
