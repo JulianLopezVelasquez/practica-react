@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import Persona from "../Components/Persona";
-import foto from "../Assets/foto.jpeg"; // ajusta la ruta si cambia
+import foto from "../Assets/foto.jpeg";
 
 function IMC() {
   const [nombre, setNombre] = useState("");
