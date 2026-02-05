@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import Persona from "../Components/Persona";
-import foto from "../Assets/foto.jpeg"; // ajusta la ruta si es necesario
+import foto from "../Assets/foto.jpeg";
 
 function PiedraPapelTijera() {
   const opciones = ["Piedra", "Papel", "Tijera"];
