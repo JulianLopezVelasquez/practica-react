@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import Persona from "../Components/Persona";
 import { persona } from "../Data/Persona";
 
+
 function IMC() {
   const [nombre, setNombre] = useState("");
   const [altura, setAltura] = useState("");
@@ -27,7 +28,6 @@ function IMC() {
       <Navbar />
 
       <div className="layout">
-
         <div className="content">
           <h1>Calculadora IMC</h1>
 
@@ -59,7 +59,6 @@ function IMC() {
             </div>
           )}
         </div>
-
         <div className="sidebar">
           <Persona {...persona}
           />

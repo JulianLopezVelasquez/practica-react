@@ -1,6 +1,4 @@
-/* =========================
-   RESET Y CONFIGURACIÓN BASE
-========================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -196,9 +194,7 @@ button:hover {
   height: fit-content;
 }
 
-/* =========================
-   TARJETA PERSONA (SIDEBAR)
-========================= */
+
 
 .persona-card {
   background: white;
@@ -208,7 +204,7 @@ button:hover {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
 
-/* FOTO */
+
 .persona-card img {
   width: 160px;
   height: 160px;
@@ -218,14 +214,12 @@ button:hover {
   margin-bottom: 15px;
 }
 
-/* NOMBRE */
 .persona-card h2 {
   font-size: 1.4rem;
   color: #4f46e5;
   margin-bottom: 15px;
 }
 
-/* LISTA INFO */
 .persona-info {
   text-align: left;
   margin-top: 15px;

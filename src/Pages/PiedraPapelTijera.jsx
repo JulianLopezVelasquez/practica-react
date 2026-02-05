@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import Persona from "../Components/Persona";
 import { persona } from "../Data/Persona";
+import foto from "../Assets/foto.jpeg";
 
 function PiedraPapelTijera() {
   const opciones = ["Piedra", "Papel", "Tijera"];
@@ -38,6 +39,10 @@ function PiedraPapelTijera() {
       <Navbar />
 
       <div className="layout">
+
+
+        
+
         <div className="content">
           <h1>Piedra, Papel o Tijera</h1>
 
