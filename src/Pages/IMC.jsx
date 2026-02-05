@@ -27,7 +27,6 @@ function IMC() {
       <Navbar />
 
       <div className="layout">
-        {/* COLUMNA IZQUIERDA */}
         <div className="content">
           <h1>Calculadora IMC</h1>
 
@@ -59,8 +58,6 @@ function IMC() {
             </div>
           )}
         </div>
-
-        {/* COLUMNA DERECHA */}
         <div className="sidebar">
           <Persona
             nombre="Julián López Velásquez"
