@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import Persona from "../Components/Persona";
-import foto from "../Assets/foto.jpeg"; // ajusta la ruta si es necesario
+import foto from "../Assets/foto.jpeg";
 
 function PiedraPapelTijera() {
   const opciones = ["Piedra", "Papel", "Tijera"];
@@ -38,7 +38,6 @@ function PiedraPapelTijera() {
       <Navbar />
 
       <div className="layout">
-        {/* COLUMNA IZQUIERDA */}
         <div className="content">
           <h1>Piedra, Papel o Tijera</h1>
 
@@ -62,8 +61,6 @@ function PiedraPapelTijera() {
             </div>
           )}
         </div>
-
-        {/* COLUMNA DERECHA */}
         <div className="sidebar">
           <Persona
             nombre="Julián López Velásquez"
