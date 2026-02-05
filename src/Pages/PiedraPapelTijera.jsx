@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import Persona from "../Components/Persona";
-import foto from "../Assets/foto.jpeg";
+import { persona } from "../Data/Persona";
 
 function PiedraPapelTijera() {
   const opciones = ["Piedra", "Papel", "Tijera"];
@@ -62,13 +62,7 @@ function PiedraPapelTijera() {
           )}
         </div>
         <div className="sidebar">
-          <Persona
-            nombre="Julián López Velásquez"
-            git="https://github.com/JulianLopezVelasquez"
-            telefono="310 575 8301"
-            correo="julian.lopezv@autonoma.edu.co"
-            descripcion="Estudiante de Ingeniería de Sistemas"
-            foto={foto}
+          <Persona {...persona}
           />
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import Persona from "../Components/Persona";
-import foto from "../Assets/foto.jpeg";
+import { persona } from "../Data/Persona";
 
 function IMC() {
   const [nombre, setNombre] = useState("");
@@ -61,13 +61,7 @@ function IMC() {
         </div>
 
         <div className="sidebar">
-          <Persona
-            nombre="Julián López Velásquez"
-            git="https://github.com/JulianLopezVelasquez"
-            telefono="310 575 8301"
-            correo="julian.lopezv@autonoma.edu.co"
-            descripcion="Estudiante de Ingeniería de Sistemas"
-            foto={foto}
+          <Persona {...persona}
           />
         </div>
       </div>
